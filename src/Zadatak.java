@@ -6,9 +6,7 @@ public class Zadatak {
 
     public static void main(String[] args) {
 
-
         Scanner sc = new Scanner(System.in);
-
 
         System.out.println("Unesite koliko ocjena zelite unijeti:");
         int kolicinaOcjena = sc.nextInt();
@@ -23,7 +21,7 @@ public class Zadatak {
             zbrojOcjena += unesenaOcjena;
         }
 
-        int prosjekOcjena = zbrojOcjena / kolicinaOcjena;
+        double prosjekOcjena = (double) zbrojOcjena / kolicinaOcjena;
 
         System.out.println("Prosjek unesenih ocjena: " + prosjekOcjena);
 
