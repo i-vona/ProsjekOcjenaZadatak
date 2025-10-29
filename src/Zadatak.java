@@ -18,12 +18,12 @@ public class Zadatak {
             System.out.println("Unesite ocjenu broj " + (i+1) + ": ");
             int unesenaOcjena = sc.nextInt();
             ocjene[i] = unesenaOcjena;
-            zbrojOcjena += unesenaOcjena;
+            zbrojOcjena += ocjene[i];
         }
 
         double prosjekOcjena = (double) zbrojOcjena / kolicinaOcjena;
 
-        
+
         System.out.println("Prosjek unesenih ocjena: " + prosjekOcjena);
 
     }
