@@ -23,6 +23,7 @@ public class Zadatak {
 
         double prosjekOcjena = (double) zbrojOcjena / kolicinaOcjena;
 
+        
         System.out.println("Prosjek unesenih ocjena: " + prosjekOcjena);
 
     }
