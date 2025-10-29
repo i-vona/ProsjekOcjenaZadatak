@@ -16,8 +16,7 @@ public class Zadatak {
 
         for (int i = 0; i < ocjene.length; i++) {
             System.out.println("Unesite ocjenu broj " + (i+1) + ": ");
-            int unesenaOcjena = sc.nextInt();
-            ocjene[i] = unesenaOcjena;
+            ocjene[i] = sc.nextInt();
             zbrojOcjena += ocjene[i];
         }
 
